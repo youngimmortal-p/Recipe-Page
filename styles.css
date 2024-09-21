@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(329, 53%, 88%);
+}
+main{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    margin: 40px auto;
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+img{
+    display: block;
+    margin: 8px auto; 
+    width: 95%;
+    border-radius: 10px;
+}
+section{
+    margin: 5px 10px;
+}
+h1{
+    margin: 10px 2px;
+    font-family: 'Young+serif';
+    font-size: 35px;
+    font-weight: 800;
+    color: hsl(24, 5%, 18%);
+}
+.prep p{
+    margin: 10px 3px;
+}
+.prep ul{
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+}
+.prep ul li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+#preps{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+h2{
+    margin-bottom: 10px;
+    font-family: 'Young+serif';
+    font-size: 28px;
+    color: hsl(14, 45%, 36%);
+}
+.ingredient{
+    border-bottom: 1px solid  hsl(30, 8%, 86%);
+}
+.ingredient ul{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.ingredient ul li{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+ .guide ol{
+    padding: 10px;
+    border-bottom: 1px solid hsl(30, 8%, 86%);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.guide ol li{
+    margin-bottom: 10px;
+}
+ol li p{
+    margin-left: 10px;
+}
+.bold{
+    font-weight: 700;
+}
+.info{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.ans{
+   position: absolute;
+   left: 700px; 
+}
+.ans{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.line{
+    border-bottom: 1px solid hsl(30, 8%, 86%)
+}
+@media (max-width: 700px){
+    .ans{
+        left: 300px;
+    }
+}
+@media (max-width: 500px){
+    main{
+        width: 300px;
+    }
+    img{
+        width: 100%;
+    }
+    .ans{
+        left: 200px;
+    }
+}
